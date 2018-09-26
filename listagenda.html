@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Hospital St. Mungo's para Doenças e Acidentes Mágicos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css.css" >
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <link rel="icon" href="img/tab/favicon.jpg">
+    </head>
+    <body>
+        <!--Header
+        ----------------------------------------------------------------------------------------------------------------
+        -->
+        <div id="header">
+            <header class="header" id="header">
+				<div class="container-fluid">
+					<div class="collapse navbar-collapse" id="infos">
+						<div class="col-xs-2">
+							<a href="index.html"><figure>
+								<img src="img/header/logostmungos.jpg" class="logo">
+							</figure></a>
+						</div>
+						<div class="col-xs-9" style="padding: 20px">
+                            <center>
+                            <h1 class="title">Hospital St. Mungo's</h1>
+                            <h2 class="title2">Para Doenças e Acidentes Mágicos</h2>
+                            </center>
+                        </div>
+						<div class="col-xs-1">
+							<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#Modal">
+								Login
+							</button>
+							<div class="modal fade" id="Modal" role="dialog">
+								<div class="modal-dialog">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h4 class="modal-title">Login</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+            </header>
+        </div>
+        
+        <!--Menu
+        ----------------------------------------------------------------------------------------------------------------
+        -->
+        <div id="barradenavegacao" width="100%">
+            <nav class="navbar">                
+                <div class="collapse navbar-collapse navbarmenu" id="collapse-navbar1">
+                    <ul class="nav navbar-nav menu">
+                        <li class="menu"><a href="index.html">Página Inicial</a></li>
+                        <li class="menu"><a href="gallery.html">Galeria</a></li>
+                        <li class="menu"><a href="contact.html">Contato</a></li>
+                        <li class="menu"><a href="agenda.html">Agendamento</a></li>
+                        <li class="menu"><a href="newemployee.html">Novo funcionário</a></li>
+                        <li class="menu"><a href="listemployee.html">Listar funcionários</a></li>
+                        <li class="menu"><a href="listcontact.html">Listar contatos</a></li>
+                        <li class="menu"><a href="listagenda.html">Listar agendamentos</a></li>                     
+                    </ul>
+                </div>          
+            </nav>
+        </div>
+        
+        <!--Content
+        ----------------------------------------------------------------------------------------------------------------
+        -->
+        <div id="content">
+			<p>
+                &nbsp AQUI VAI A LISTA DE AGENDAMENTOS
+            </p>
+            <br>
+		</div>
+        <!--Footer
+        ----------------------------------------------------------------------------------------------------------------
+        -->
+        <div>
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <div>
+                                <h3 class="titulo">Navegador</h3>
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="index.html"><i class="fas fa-home"></i> Home</a>
+                                </li>
+                                <li>
+                                    <a href="#sobre"><i class="fas fa-hospital-alt"></i> Sobre</a>
+                                </li>
+                                <li>
+                                    <a href="https://goo.gl/maps/YvBxwPGFfvN2" target="_blank">
+                                        <i class="fas fa-map-marker-alt"></i> Nos Encontre
+                                    </a>
+                                </li>                                    
+                            </ul>
+                        </div>
+                        <div class="col-xs-4">
+                            <div>
+                               <h3 class="titulo">Contato</h3>
+                            </div>
+                                <address>
+                                    <div>
+                                        <a href="https://goo.gl/maps/YvBxwPGFfvN2" target="_blank">
+                                            <i class="fas fa-map-marked-alt"></i><span> 58 Elgin Ave, London W9 2HA, Reino Unido</span>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="mailto:comunicacao@stmungos.com" class="att-title"><i class="far fa-envelope"></i> comunicacao@stmungos.com</a>
+                                    </div>
+                                    <div>
+                                        <a href="tel:+442072661847" >
+                                            <i class="fas fa-phone"></i> <span>+44 (20) 7266 1847</span>
+                                        </a>
+                                    </div>
+                                </address>
+                        </div>
+                        <div class="col-xs-4">
+                            <div>
+                                <h3 class="titulo">Social</h3>
+                            </div>
+                            <div id="navsocial">
+                                <ul display="inline-block">
+                                    <li>
+                                        <a href="https://www.facebook.com/StMungosUK/" target="_blank">
+                                            <i class="fab fa-facebook-square"></i> Facebook
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/harrypotterfilm/" target="_blank">
+                                            <i class="fab fa-instagram"></i> Instagram
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.youtube.com/watch?v=5jg9hFPhgSs" target="_blank">
+                                            <i class="fab fa-youtube"></i> Youtube
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            2018 © Clínica St. Mungo's - Direitos Reservados | Desenvolvido por Izabela Pereira Maestri, Luiz Otávio Dias Coutinho e Max Pereira Ziller
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

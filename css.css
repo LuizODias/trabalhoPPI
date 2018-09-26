@@ -1,0 +1,111 @@
+/*CSS Footer*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-color: #c4a148;
+	background-color: #333;
+}
+
+.titulo {
+	color: white;	
+}
+
+.container-fluid {
+	background-color: #ffbb99;
+}
+
+/*CSS header*/
+.header {
+    position: static;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+}
+
+img.logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+	margin:5px;
+}
+
+/*CSS fontes*/
+@font-face {
+	font-family: potter;
+	src: url('font/HARRP.TTF');
+}
+
+@font-face {
+	font-family: medical;
+	src: url('font/KawaiiMedical.ttf');
+}
+
+.title {
+	font-size:6vw;
+	font-variant: small-caps;
+	font-family: potter;
+	font-weight: bold;
+	color: #333;
+	text-align: center;
+	text-shadow: 2px 2px gray;
+}
+
+.title2 {
+	font-size:3vw;
+	font-variant: small-caps;
+	font-family: potter;
+	font-weight: bold;
+	color: #333;
+	text-align: center;
+	text-shadow: 2px 2px gray;
+}
+
+.medical {
+	font-size: 200%;
+	font-family: medical;
+	font-weight: bold;
+}
+
+/*CSS navbar*/
+.navbarmenu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+    border-width: 1px;
+
+}
+
+li.menu {
+	float: left;
+}
+
+li a.menu {
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+li a{
+	color: white;
+}
+
+div a{
+	color: white;
+}
+
+li.menu:hover {
+	background-color: #777;
+	color: yellow;
+}
+
+nav.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 0px solid transparent;
+}
